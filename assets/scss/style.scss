@@ -49,7 +49,7 @@ body {
   height: 100%;
   opacity: 0;
   box-sizing: border-box;
-  background: #333;
+  background: rgb(247, 4, 4);
   color: #fff;
   font-size: 40px;
   padding: 40px;
@@ -111,11 +111,14 @@ body {
 .indicator {
   height: 5px;
   user-select: none;
-  background-color: rgba($color: #746e6ef5, $alpha: 0.5);
+  background-color: rgba($color: #0a0a0af5, $alpha: 0.5);
+  border-radius: 15%;
   &.active {
-    background-color: rgba($color: #000000, $alpha: 1);
+    background-color: rgba($color: #ffffff, $alpha: 1);
     opacity: 1;
     z-index: 2;
+
+
   }
   @include md-min {
     width: 70px;
@@ -142,7 +145,7 @@ body {
 
   &-pause:focus,
   &-pause:hover {
-    color: rgb(0, 0, 0);
+    color: white;
   }
 }
 
@@ -180,11 +183,12 @@ body {
   padding-right: 10px;
   z-index: 5;
   position: absolute;
-  color: rgb(0, 0, 0, 0.3);
+  color: #ffffff;
+  opacity: 50%;
 
   &:focus,
   &:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(7, 0, 0);
   }
 
   @include md-min {
@@ -208,11 +212,11 @@ body {
   padding-left: 10px;
   z-index: 5;
   position: absolute;
-  color: rgb(0, 0, 0, 0.3);
+  color: #ffffff;
 
   &:focus,
   &:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(7, 0, 0);
   }
 
   @include md-min {

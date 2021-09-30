@@ -399,7 +399,7 @@ body {
   opacity: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #333;
+  background: #f70404;
   color: #fff;
   font-size: 40px;
   padding: 40px;
@@ -470,10 +470,11 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-color: rgba(116, 110, 110, 0.5);
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 15%;
 }
 .indicator.active {
-  background-color: black;
+  background-color: white;
   opacity: 1;
   z-index: 2;
 }
@@ -493,7 +494,7 @@ body {
   z-index: 3;
 }
 .control-pause:focus, .control-pause:hover {
-  color: black;
+  color: white;
 }
 
 .control-pause {
@@ -521,10 +522,11 @@ body {
   padding-right: 10px;
   z-index: 5;
   position: absolute;
-  color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  opacity: 50%;
 }
 #next-btn:focus, #next-btn:hover {
-  color: black;
+  color: #070000;
 }
 
 #prev-btn {
@@ -537,10 +539,10 @@ body {
   padding-left: 10px;
   z-index: 5;
   position: absolute;
-  color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
 }
 #prev-btn:focus, #prev-btn:hover {
-  color: black;
+  color: #070000;
 }
 @media (min-width: 768px) {
   .indicator {
